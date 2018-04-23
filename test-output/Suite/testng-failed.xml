@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="net.phptravels.testpages.AccountPageTest">
+        <methods>
+          <include name="clickHomeLogoTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginNameTest"/>
+        </methods>
+      </class> <!-- net.phptravels.testpages.AccountPageTest -->
+      <class name="net.phptravels.testpages.LoginPageTest">
+        <methods>
+          <include name="displayTitleTest"/>
+          <include name="tearDown"/>
+          <include name="loginPassTest"/>
+          <include name="loginFailTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- net.phptravels.testpages.LoginPageTest -->
+      <class name="net.phptravels.testpages.HomePageTest">
+        <methods>
+          <include name="searchHotelTestEdgeCase2"/>
+          <include name="searchHotelTest"/>
+          <include name="tearDown"/>
+          <include name="searchHotelTestEdgeCase1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- net.phptravels.testpages.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
